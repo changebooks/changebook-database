@@ -1,0 +1,34 @@
+{
+  "properties": [
+    {
+      "name": "dsn.url",
+      "type": "java.lang.String",
+      "sourceType": "io.github.changebooks.database.autoconfigure.DsnProperties"
+    },
+    {
+      "name": "dsn.username",
+      "type": "java.lang.String",
+      "sourceType": "io.github.changebooks.database.autoconfigure.DsnProperties"
+    },
+    {
+      "name": "dsn.password",
+      "type": "java.lang.String",
+      "sourceType": "io.github.changebooks.database.autoconfigure.DsnProperties"
+    },
+    {
+      "name": "sharding.db-size",
+      "type": "java.lang.Integer",
+      "sourceType": "io.github.changebooks.database.autoconfigure.ShardingProperties"
+    },
+    {
+      "name": "sharding.table-size",
+      "type": "java.lang.Integer",
+      "sourceType": "io.github.changebooks.database.autoconfigure.ShardingProperties"
+    },
+    {
+      "name": "sharding-num.table-size",
+      "type": "java.lang.Integer",
+      "sourceType": "io.github.changebooks.database.autoconfigure.ShardingNumProperties"
+    }
+  ]
+}
